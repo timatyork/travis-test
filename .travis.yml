@@ -10,7 +10,6 @@ cache:
 script:
 - sbt ++$TRAVIS_SCALA_VERSION dist
 deploy:
-  matrix:
   - provider: elasticbeanstalk
     bucket_name: elasticbeanstalk-us-east-1-822027063215
     region: us-east-1
