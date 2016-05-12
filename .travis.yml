@@ -20,7 +20,7 @@ deploy:
     on:
       repo: timatyork/travis-test
       branch: master
-      condition: $TRAVIS_PULL_REQUEST = flase
+      condition: $TRAVIS_PULL_REQUEST = false
     access_key_id:
       secure: aYjdJfJg//NtgqgZ6SjwFs1ouztAHVPITvDnwnEsWcWwLItVmM+J7134gBQRch9KRhIblmp17CJf0UR1xrb8ygUOEjNFyC9w8414KivCFTAtiP3wsixx/Ur/sqaoexc8jvOn/tUJ66GGu6QewJZ8Qsd1yIfhqRo4nNnFtuGxrL+U5t0KNpYDnVFoKRtP9apZHIFT7/80Zv4rwJwq/vBJCwReTbl+wggq2FevzJst16csz5XvxaJ6AlY3izJr96s3or2NNtKE1mJ+QIcB57ab8qy3vjde//ICrH+hKaETWBf70x3aSfziMkEle+UdtNPpnjd8N/r/bgB392Scjhvop8xo0icbSkzFEisWW+NscedaoNbMSRhmr3DZ1c8Dz45J8c9bC8djDGQbd8A51+aRU75cqV5qKFleOrBC0Q3qPByyMTARL1BwULCmUNp6CyY0kEDJpCm69vhbtvY58SyNvw9R8cWIbSnKkpMfQ727eK93KmhAhBT7kVQd3LRq0KWL4RKrbbV0/ObLncmFBsxGo6YqY1NREh32c2EEkUrUDUDO8RXzJh/AS7mz4SVxPPy33i5O/r8nXkbOfoSHSHr46YvNiLWBPWZzPcw+6aELpjFgik80b0npZAqMY6oVz1M2B7f97BdQcNL1lEq+qV958ay0G2aDJ2pHdy6Zw/x9DDk=
     secret_access_key:
